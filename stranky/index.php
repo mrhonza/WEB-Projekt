@@ -34,7 +34,7 @@
         <div class="collapse navbar-collapse" id="mainNavbar">
             <ul class="navbar-nav ms-auto mb-2 mb-md-0 gap-md-1">
                 <li class="nav-item">
-                    <a class="nav-link active fw-semibold" aria-current="page" href="../stranky/index.html">Home</a>
+                    <a class="nav-link active fw-semibold" aria-current="page" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-dark" href="../../stranky/features.html">Features</a>
