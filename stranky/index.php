@@ -11,6 +11,7 @@
     body{background-color: whitesmoke }
     .zaobleni{border: hidden; border-radius: 20px}
     .zadnydekor{text-decoration: none}
+    a:hover{text-decoration: underline}
 </style>
 
 <div class="container bg-white zaobleni">
@@ -37,7 +38,7 @@
                     <a class="nav-link active fw-semibold" aria-current="page" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="../../stranky/features.html">Features</a>
+                    <a class="nav-link text-dark" href="../stranky/features.html">Features</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-dark" href="#">Pricing</a>
