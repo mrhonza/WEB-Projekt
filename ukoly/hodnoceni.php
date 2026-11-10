@@ -31,6 +31,12 @@ if ($procentualniUspesnost >= 90) {
     $grade =5;
 }
 
+
+//Pomocí HTML a echo zobrazte:
+
+//Zajistěte, aby program rozpoznal neplatné bodové hodnocení (méně než 0 nebo více než 100 bodů v některém testu).
+//Vypište slovní hodnocení: , , ,  nebo .Odevzdání
+//Odevzdejte funkční soubor hodnoceni.php. Program musí správně reagovat na změnu bodových hodnot jednotlivých testů.
 echo "jmeno studenta je $studentName<br>";
 echo "vysledky testu jsou:<br><br>";
 echo "test 1: $test1 bodu<br>";
@@ -53,7 +59,7 @@ if ($grade == 2) {
     echo "slovni hodnoceni: <br>";
     echo "chvalitebný<br>";
 }
-if ($grade ==3) {
+if ($grade == 3) {
     echo "slovni hodnoceni: <br>";
     echo "dobrý<br>";
 }
